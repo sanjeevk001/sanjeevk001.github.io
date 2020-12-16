@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Sanjeev K Das | Sanjeev</title>
+<title>Sanjeev K Das | Advisories</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/vulnerabilities/">
 
 <!-- Theming-->
 
@@ -86,9 +86,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/vulnerabilities/">
                 Advisories
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -125,7 +127,7 @@
           
           <!-- Blog 
           
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               Blog
               
@@ -148,56 +150,50 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Advisories</h1>
+    <p class="post-description">Below are some of the <b>new</b> vulnerabilities that were found through my vulnerability research.</p>
+  </header>
 
-
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
+  <article>
+    <ul> 
+    <li> Libjpeg
+        <a class="nav-link" href="https://nvd.nist.gov/vuln/detail/CVE-2020-13790"> 
+            CVE-2020-13790: Heap-based buffer over-read in libjpeg-turbo 2.0.4 and mozjpeg 4.0.0
+        </a>
     </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="Sanjeev">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="Sanjeev - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="Sanjeev - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
+    <li> Libarchive 
+        <a class="nav-link" href="https://nvd.nist.gov/vuln/detail/CVE-2020-21674"> 
+            CVE-2020-21674: Out-of-bounds write in Libarchive-3.4.1dev
+        </a>
+        <a class="nav-link" href="https://nvd.nist.gov/vuln/detail/CVE-2019-19221"> 
+            CVE-2019-19221: Out-of-bounds read in Libarchive 3.4.0
+        </a>
     </li>
-  </ul>
-</nav>
+    <li> Intel GPU
+        <a class="nav-link" href="https://github.com/HE-Wenjian/iGPU-Leak"> 
+            CVE-2019-14615: Information leakage in Intel Integrated GPU.
+        </a>
+    </li>
+    <li> Php
+        <a class="nav-link" href="https://bugs.php.net/bug.php?id=80246"> 
+            Bug #80246: Seg. fault due to null pointer dereference in PHP-7.4.11
+        </a>
+        <a class="nav-link" href="https://bugs.php.net/bug.php?id=80244"> 
+            Bug #80244:	Out-of-bounds read in PHP-8.0.0rc1
+        </a>
+    </li>
+    <li> Pcre
+    <a class="nav-link" href="https://bugs.exim.org/show_bug.cgi?id=2479"> Bug #2479: Heap buffer overflow vulnerability in PCRE2-10.34 </a>
+    <a class="nav-link" href="https://bugs.exim.org/show_bug.cgi?id=2480"> Bug #2480: Heap buffer overflow vulnerability in PCRE2-10.34 </a>
+    <a class="nav-link" href="https://bugs.exim.org/show_bug.cgi?id=2481"> Bug #2481: Heap buffer overflow vulnerability in PCRE2-10.34 </a>
+    <a class="nav-link" href="https://bugs.exim.org/show_bug.cgi?id=2482"> Bug #2482: Heap buffer overflow vulnerability in PCRE2-10.34 </a>
+    <a class="nav-link" href="https://bugs.exim.org/show_bug.cgi?id=2483"> Bug #2483: Out-of-bounds read in PCRE2-10.34 </a>
+    <a class="nav-link" href="https://bugs.exim.org/show_bug.cgi?id=2484"> Bug #2484: Stack overflow in PCRE2-10.34 </a>
+    </li>
+</ul>
 
-
+  </article>
 
 </div>
 
