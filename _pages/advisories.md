@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /vulnerabilities/
-title: Vulnerabilities
+title: Advisories
 description: Below are some of the <b>new</b> vulnerabilities that were found through my vulnerability research.
 nav: true
 ---

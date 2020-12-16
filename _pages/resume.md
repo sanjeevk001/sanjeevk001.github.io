@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /../sanjeev-resume-sec.pdf
+permalink: /../sanjeev-cv.pdf
 title: Resume
 description: #
 nav: true
